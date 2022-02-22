@@ -8,5 +8,11 @@ Apache Groovy [Actions status](https://github.com/apache/groovy/actions/workflow
 
 | Groovy 5_0_X | Groovy 4_0_X | Groovy 3_0_X | Groovy 2_5_X |
 | ------------ | ------------ | ------------ | ------------ |
-| ![Groovy 4](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg?branch=GROOVY_4_0_X) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg?branch=GROOVY_3_0_X) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg?branch=GROOVY_2_5_X) |
+| ![Master](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg?branch=GROOVY_4_0_X) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/build-test.yml/badge.svg?branch=GROOVY_3_0_X) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/build-test.yml/badge.svg?branch=GROOVY_2_5_X) |
 
+Teamcity [status](https://ci.groovy-lang.org?guest=1)
+
+| Groovy 5_0_X | Groovy 4_0_X | Groovy 3_0_X | Groovy 2_5_X |
+| ------------ | ------------ | ------------ | ------------ |
+| JDK11 [![Build Status](http://ci.groovy-lang.org/app/rest/builds/buildType:id:MasterTestJdk11/statusIcon)]
+(http://ci.groovy-lang.org/viewType.html?buildTypeId=MasterTestJdk11&guest=1) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml/badge.svg?branch=GROOVY_4_0_X) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/build-test.yml/badge.svg?branch=GROOVY_3_0_X) | ![Groovy 4](https://github.com/apache/groovy/actions/workflows/build-test.yml/badge.svg?branch=GROOVY_2_5_X) |
