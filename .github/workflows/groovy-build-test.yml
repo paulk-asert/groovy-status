@@ -31,8 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          name: apache/groovy
-          ref: refs/heads/master
+          repository: apache/groovy
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
