@@ -2,9 +2,10 @@
 
 Local repo [Actions status](https://github.com/paulk-asert/groovy-status/actions/workflows/groovy-build-test.yml)
 
-![Groovy 5](https://github.com/paulk-asert/groovy-status/actions/workflows/groovy-build-test.yml/badge.svg)
+![Groovy 5 on standard JDKs](https://github.com/paulk-asert/groovy-status/actions/workflows/groovy-build-test.yml/badge.svg)
+![Groovy 5 on JDK18](https://github.com/paulk-asert/groovy-status/actions/workflows/groovy-build-test-18.yml/badge.svg)
 
-Apache Groovy [Actions status](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml)
+Apache Groovy Github Actions [status](https://github.com/apache/groovy/actions/workflows/groovy-build-test.yml)
 
 | Groovy 5_0_X | Groovy 4_0_X | Groovy 3_0_X | Groovy 2_5_X |
 | ------------ | ------------ | ------------ | ------------ |
