@@ -34,19 +34,12 @@ jobs:
         with:
           repository: apache/groovy
 
-      - name: Download ${{ matrix.os }} OpenJDK ${{ matrix.jdk }}
+      - name: Set up ${{ matrix.os }} OpenJDK ${{ matrix.jdk }}
         id: download-jdk
-        uses: sormuras/download-jdk@v1
+        uses: oracle-actions/setup-java@v1
         with:
-          feature: ${{ matrix.jdk }}
-
-      - name: Set up JDK
-        uses: actions/setup-java@v2
-        if: always() && steps.download-jdk.outcome == 'success'
-        with:
-          distribution: jdkfile
-          java-version: ${{ env.JDK_VERSION }}
-          jdkFile: ${{ env.JDK_FILE }}
+          website: jdk.java.net
+          release: ${{ matrix.jdk }}
 
       - name: Test with Gradle
         run: ./gradlew test
